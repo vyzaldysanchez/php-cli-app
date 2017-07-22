@@ -1,0 +1,25 @@
+{
+  "name": "vyzaldy/command-line-app",
+  "description": "Some command line app",
+  "type": "library",
+  "require-dev": {
+    "symfony/console": "^3.3",
+    "symfony/event-dispatcher": "^3.3",
+    "symfony/filesystem": "^3.3",
+    "symfony/process": "^3.3"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vyzaldy Andres Sanchez",
+      "email": "vyzaldysanchez@gmail.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Commands\\": "src"
+    }
+  }
+}
