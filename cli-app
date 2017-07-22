@@ -1,0 +1,13 @@
+#! /usr/bin/env php
+
+<?php
+require_once 'vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Commands\GreetCommand;
+
+$app = new Application('CLI Practice with PHP', '1.0.0');
+
+$app->add(new GreetCommand());
+
+$app->run();
